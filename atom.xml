@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>巨核莓的博客</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="//www.juhemei.net/"/>
+  <updated>2017-05-04T17:32:50.004Z</updated>
+  <id>//www.juhemei.net/</id>
+  
+  <author>
+    <name>JUHEMEI</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>近期IT专员面试题目的总结</title>
+    <link href="//www.juhemei.net/2017/04/29/Interview-questions/"/>
+    <id>//www.juhemei.net/2017/04/29/Interview-questions/</id>
+    <published>2017-04-29T09:05:00.000Z</published>
+    <updated>2017-05-04T17:32:50.004Z</updated>
+    
+    <content type="html"><![CDATA[<p>先体会下别人家的机房吧…酷酷的有木有</p>
+<p><img src="http://oowirpzt9.bkt.clouddn.com/engine-room.jpg" alt=""></p>
+<a id="more"></a>
+<p>再看看自家的（听说看一个IT专员工作有没有上心，去机房看看他管的机架就可以了）…</p>
+<p><img src="http://oowirpzt9.bkt.clouddn.com/engine-room-be.jpg" alt=""></p>
+<p><img src="http://oowirpzt9.bkt.clouddn.com/engine-room-in.jpg" alt=""></p>
+<h4 id="计算机是由几大部件组成的？"><a href="#计算机是由几大部件组成的？" class="headerlink" title="计算机是由几大部件组成的？"></a>计算机是由几大部件组成的？</h4><p>控制器（Control）、运算器(Datapath)、存储器(Memory)、输入设备(Input system)、输出设备(Output system)</p>
+<p><img src="http://oowirpzt9.bkt.clouddn.com/PC.jpg" alt=""></p>
+<pre><code>实际动手操作对概念更容易理解
+</code></pre><h4 id="OSI-（开放系统互联-Open-System-Interconnection-网络七层协议是哪几层？"><a href="#OSI-（开放系统互联-Open-System-Interconnection-网络七层协议是哪几层？" class="headerlink" title="OSI （开放系统互联(Open System Interconnection))网络七层协议是哪几层？"></a>OSI （开放系统互联(Open System Interconnection))网络七层协议是哪几层？</h4><p>物理层、数据链路层、网络层、传输层、会话层、表示层、应用层</p>
+<h4 id="网线水晶头（568A-B）线序是什么？"><a href="#网线水晶头（568A-B）线序是什么？" class="headerlink" title="网线水晶头（568A/B）线序是什么？"></a>网线水晶头（568A/B）线序是什么？</h4><p>568A：绿白、绿、橙白、蓝、蓝白、橙、棕白、棕</p>
+<p>568B：橙白、橙、绿白、蓝、蓝白、绿、棕白、棕</p>
+<pre><code>实际动手操作对概念更容易理解
+</code></pre><h4 id="网线568B顺序为什么是1236-而不是1234这样更简单？"><a href="#网线568B顺序为什么是1236-而不是1234这样更简单？" class="headerlink" title="网线568B顺序为什么是1236 而不是1234这样更简单？"></a>网线568B顺序为什么是1236 而不是1234这样更简单？</h4><p>为了兼容之前的RJ11、RJ14、RJ25插头，并且允许一路网络线和一路电话线共用一条双绞线（备份）。</p>
+<h4 id="请写出下面服务的常用端口"><a href="#请写出下面服务的常用端口" class="headerlink" title="请写出下面服务的常用端口:"></a>请写出下面服务的常用端口:</h4><ul>
+<li>FTP: TCP端口号为21，Port方式数据端口为20</li>
+</ul>
+<ul>
+<li>HTTP:80</li>
+</ul>
+<ul>
+<li>HTTPS:443</li>
+</ul>
+<ul>
+<li>DNS:53</li>
+</ul>
+<ul>
+<li>SSH:22</li>
+</ul>
+<ul>
+<li>Telnet:23</li>
+</ul>
+<h4 id="TCP三次握手是哪三次？"><a href="#TCP三次握手是哪三次？" class="headerlink" title="TCP三次握手是哪三次？"></a>TCP三次握手是哪三次？</h4><p><img src="http://oowirpzt9.bkt.clouddn.com/tcp-scws.jpg" alt=""></p>
+<ul>
+<li><p>第一次握手：建立连接时，客户端发送syn包（syn=j）到服务器，并进入SYN_SENT状态，等待服务器确认；SYN：同步序列编号（Synchronize Sequence Numbers）。</p>
+</li>
+<li><p>第二次握手：服务器收到syn包，必须确认客户的SYN（ack=j+1），同时自己也发送一个SYN包（syn=k），即SYN+ACK包，此时服务器进入SYN_RECV状态；</p>
+</li>
+<li><p>第三次握手：客户端收到服务器的SYN+ACK包，向服务器发送确认包ACK(ack=k+1），此包发送完毕，客户端和服务器进入ESTABLISHED（TCP连接成功）状态，完成三次握手。</p>
+</li>
+</ul>
+<p>2017-5-4 21：34：00更新</p>
+<h4 id="操作系统32-X86-位和64-X64-位有什么区别？"><a href="#操作系统32-X86-位和64-X64-位有什么区别？" class="headerlink" title="操作系统32(X86)位和64(X64)位有什么区别？"></a>操作系统32(X86)位和64(X64)位有什么区别？</h4><p>其实实际上这取决于CPU一次处理数据的能力是32位还是64位。现在市场上的CPU一般都是64位的，但是这些CPU并不是真正意义上的64位CPU，里面依然保留了大部分32位的技术，只是进行了部分64位的改进。(答案来自<a href="http://server.zol.com.cn/491/4912048.html" target="_blank" rel="external">中关村在线</a>)</p>
+<p><strong>计算速度</strong></p>
+<ul>
+<li>64位CPU一次可提取64位数据，比32位提高了一倍，理论上性能会提升1倍。但这是建立在64bit操作系统，64bit软件的基础上的。 所以32位和64位相比，64位的理论速度更快。资深专家测试，专门为64位Windows设计的软件可以比32位系统快15%~60%左右。</li>
+</ul>
+<p><strong>内存寻址</strong></p>
+<ul>
+<li>32位系统的最大寻址空间是2的32次方= 4294967296（bit）= 4（GB）左右，而64位系统的最大寻址空间的寻址空间则达到了2的64次方= 4294967296（bit）的32次方=16TB。换而言之，就是说32位系统的处理器最大只支持到4G内存，而64位系统最大支持的内存理论上能达到16TB。</li>
+<li>当然，事实上由于种种原因，一般主板无法使用超过16GB的内存，所以一般64位操作系统的内存在4到16GB之间，而32位系统不支持大于4GB的内存。由于64位版能够直接寻址更大范围的内存，就这一点而言对于高端工作站用户和服务器管理员是十分重要。（现在大部分都是64位）</li>
+</ul>
+<h4 id="网线568B顺序为什么是1236-而不是1234这样更简单？-1"><a href="#网线568B顺序为什么是1236-而不是1234这样更简单？-1" class="headerlink" title="网线568B顺序为什么是1236 而不是1234这样更简单？"></a>网线568B顺序为什么是1236 而不是1234这样更简单？</h4><p>这个问题虽然简单，但是这个点很细。一般没有注意到这个（之前没了解过，面试官一问，蒙圈了）</p>
+<ul>
+<li>我们知道网线有八根线，但是实际平时在用的时候四根线就可以了（百兆：12-输出数据，36-接收数据）</li>
+<li>传统电信电话线路只要两条线就可以了（一条输出、一条接收）</li>
+<li>国际标准（方便维护，大家都遵守这个标准（网络设备、工程师））</li>
+<li>为了兼容之前的RJ11、RJ14、RJ25插头，并且允许一路网络线和一路电话线共用一条双绞线（备用（毕竟布线工程量有点大，麻烦）-设计8条线原因）</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      JUST DO IT
+    
+    </summary>
+    
+      <category term="博客" scheme="//www.juhemei.net/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="面试，IT专员" scheme="//www.juhemei.net/tags/%E9%9D%A2%E8%AF%95%EF%BC%8CIT%E4%B8%93%E5%91%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2017回顾最近工作上的点滴</title>
+    <link href="//www.juhemei.net/2017/04/27/Work-summary/"/>
+    <id>//www.juhemei.net/2017/04/27/Work-summary/</id>
+    <published>2017-04-27T07:40:00.000Z</published>
+    <updated>2017-04-29T08:49:40.736Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://oowirpzt9.bkt.clouddn.com/just-do-it.jpg" alt=""></p>
+<p>不知道怎么开头，因为没有每年做一次自己工作或者目标或者生活的总结。（迫于年纪上来了，还是一事无成（穷），觉得是时候好好总结一番了）<br><a id="more"></a></p>
+<h2 id="先聊聊最近发生的事情吧…莫名的糟心"><a href="#先聊聊最近发生的事情吧…莫名的糟心" class="headerlink" title="##先聊聊最近发生的事情吧…莫名的糟心"></a>##先聊聊最近发生的事情吧…莫名的糟心</h2><p>2017年1月过年前，我辞职了。工作到公司放假的最后一天24号，别市的有两天的行程假。1月27号就过年了，我就这样又裸辞了（不听妈妈的劝）</p>
+<p>之前在工作中做得不开心，一直觉得是在打杂的。心态一直摆不正，后面朋友说年后一起出去创业。之前我不想去的（犹豫症），后面不知道什么情况就答应了（工作中看不到前景吧，被朋友劝动了）。离开公司的那天，回头看看公司。想起了第一次来面试的场景，不免有点伤感…</p>
+<p>整个过年的时间内都是纠结的状态，想接下来怎么办？确定要跟朋友一起创业、再找份工作、在家…（后面选择再找份工作）</p>
+<p>悲剧来了。找工作又回到找什么工作，继续做IT专员（网管）吗？换行吗，没有经验。也不懂…（俗话说;隔行如隔山-体会到网络这块跟电信这块虽然很像但是差距还是挺多的，好多专业名词搞不懂，水很深的感觉）</p>
+<h2 id="网络这块入门简单，要精通也有难度。"><a href="#网络这块入门简单，要精通也有难度。" class="headerlink" title="##网络这块入门简单，要精通也有难度。"></a>##网络这块入门简单，要精通也有难度。</h2><p>看网上帖子很多做这块的后面都转行了（开发、管理、售前售后、技术支持类），没什么发展前景。听别人说做个一两年就要转行了，我断断续续也有4年了。中途我也转过：开发（做不来，当时没有基础。看代码就是看天书，拖我们团队的后腿，不好意思就辞职了）、销售（热脸贴冷屁股，好烦，每天都要打电话），现在回想还是觉得做开发有前途。当初要是能坚持下来就好了，现在也许就不会纠结狼狈了（事后诸葛亮）。</p>
+<p>挺感谢之前的同事的，对于我这一个啥都不懂的，愿意传授他们的经验给我。谢谢你们的慷慨！</p>
+<h2 id="最近面试失利，有几个原因吧。"><a href="#最近面试失利，有几个原因吧。" class="headerlink" title="##最近面试失利，有几个原因吧。"></a>##最近面试失利，有几个原因吧。</h2><ul>
+<li>一、岗位本身问题，一般一家公司就一两个岗位（有一些还是外包出去，或者其他人员兼职）</li>
+</ul>
+<ul>
+<li>二、岗位技能要求低，公司一般招应届生比较多。（工资低，干活卖力）对比下我的优势就没那么明显了，为什么要招一个有经验的…</li>
+</ul>
+<ul>
+<li>三、频繁跳槽，企业不喜欢经常跳槽的人员（不稳定）。网络上说：在一家待个几年才能有所成长，频繁跳槽是学不到东西。还有一个心态不行（目前我的状态就是这样的）。希望你们引以为戒，确定想好下一步再裸辞。不然不能裸辞。</li>
+</ul>
+<ul>
+<li>四、技术不行（这几年做的事情大部分在于桌面运维方面，所以更深的不懂。学校学的也还给老师了），好点的岗位要求比较高达不到要求。（觉得是主要原因吧，尴尬）</li>
+</ul>
+<ul>
+<li>五、未来PC这块都转云桌面（私有云）了吧，一个人就可以管理很多终端（优点：好管理、数据安全性强、移动办公）。</li>
+</ul>
+<ul>
+<li>六、自己心态没调整（没有思考好接下来怎么规划职业，迷茫了-也有几家给OFFICE的，没去）IDC机房干了3天，不爽就没去了-去了三天连电脑都没有，说好要给我配的（用同事的）–眼高手低吧~</li>
+</ul>
+<p>最近：熬夜眼镜感染了、不知怎么过敏的（之前不知道鸡蛋也是过敏原不能吃，本来好的。唉~又复发了…）</p>
+<blockquote>
+<p>本来找到工作了，家里打电话过来问。就说找到了，后面没去。又不想跟家里说还没找到工作，怕家里担心（天天打电话问候找到工作没，很烦）。真的，说了一个谎，就必须说更多的慌来圆第一个慌！</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      吾日三省吾身
+    
+    </summary>
+    
+      <category term="生活" scheme="//www.juhemei.net/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="2017，工作，职业规划" scheme="//www.juhemei.net/tags/2017%EF%BC%8C%E5%B7%A5%E4%BD%9C%EF%BC%8C%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一篇博文-搭建篇</title>
+    <link href="//www.juhemei.net/2017/04/24/Previous-word/"/>
+    <id>//www.juhemei.net/2017/04/24/Previous-word/</id>
+    <published>2017-04-24T01:36:27.000Z</published>
+    <updated>2017-04-24T08:29:56.500Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://oowirpzt9.bkt.clouddn.com/timg.jpg" alt=""></p>
+<h2 id="你好-Github-Hexo-node-js-git"><a href="#你好-Github-Hexo-node-js-git" class="headerlink" title="你好 Github+Hexo+node.js+git"></a>你好 Github+Hexo+node.js+git</h2><p>去年就通过论坛了解到可以通过github可以创建自己的博客，但是之前遇到一些麻烦。</p>
+<p>后面再遇到工作上的事情就没有再弄了（最主要是懒吧）。</p>
+<p>我自己本身不是搞程序的，没有这些软件的概念。</p>
+<p>我是靠教程一步一步来操作的，希望接下来能坚持下来。</p>
+<a id="more"></a>
+<p><strong>搭建部署过程中我遇到的坑</strong></p>
+<p>Git Bash上运行：</p>
+<pre><code>Hexo server
+</code></pre><p>运行失败：根目录配置文件_config.yml参数后面需要带有空格</p>
+<pre><code>Hexo deploy
+</code></pre><p>部署失败：要本地生成 SSH 秘钥的时候，第一次回车的时候留空（默认）。</p>
+<p>步骤：在 Git Bash 中，输入：ssh-keygen -t rsa -C “你的邮箱地址”，然后回车（留空），回车（密码），再回车（确认密码），一共 3 次回车。这个密码每次部署都要用到。</p>
+<blockquote>
+<p>以下是我搭建这个博客所用到的教程地址</p>
+</blockquote>
+<ul>
+<li>平台：<a href="http://www.jianshu.com/p/f9b213097c42#" target="_blank" rel="external">使用Github搭建Hexo技术博客托管在GitHub Pages上–安装教程</a></li>
+<li>网站图标：<a href="http://www.easyicon.net/" target="_blank" rel="external">http://www.easyicon.net/</a></li>
+<li>编辑工具：<a href="http://www.jianshu.com/p/82e730892d42#" target="_blank" rel="external">Markdown的常用语法(个人总结)</a></li>
+<li>主题:<a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external">一个简洁优雅的hexo主题-yilia</a></li>
+<li>评论：<a href="https://gentie.163.com/index.html" target="_blank" rel="external">网易云跟帖</a></li>
+<li>图床：<a href="https://www.qiniu.com/" target="_blank" rel="external">七牛云（认证用户有10G空间免费使用）</a></li>
+<li>Sitemap:<a href="https://www.xml-sitemaps.com" target="_blank" rel="external">可方便网站管理员通知搜索引擎他们网站上有哪些可供抓取的网页</a></li>
+</ul>
+<h2 id="插件的基本使用命令"><a href="#插件的基本使用命令" class="headerlink" title="插件的基本使用命令"></a>插件的基本使用命令</h2><p>插件官网：<a href="https://hexo.io/plugins/" target="_blank" rel="external">https://hexo.io/plugins/</a></p>
+<p>安装插件：npm install 插件名 –save</p>
+<p>卸载插件：npm uninstall 插件名</p>
+<p>更新插件和博客框架（需要在 E:\blog_space\hexo 目录下）：npm update</p>
+<p>它实质上是通过项目根目录下 package.json 文件更新各大组件</p>
+<pre><code>必备插件
+</code></pre><p>支持RSS：npm install hexo-generator-feed –save(目前只安装这个插件)</p>
+<p>生成站点地图：npm install hexo-generator-sitemap –save</p>
+<p>生成百度站点地图：npm install hexo-generator-baidu-sitemap –save</p>
+<p>HTML 压缩：npm install hexo-html-minifier –save</p>
+<p>JavaScript 压缩：npm install hexo-uglify –save</p>
+<p>CSS 压缩插件：npm install hexo-clean-css –save</p>
+<p>SEO优化：npm install hexo-generator-seo-friendly-sitemap</p>
+]]></content>
+    
+    <summary type="html">
+    
+      搭建博客的过程
+    
+    </summary>
+    
+      <category term="博客" scheme="//www.juhemei.net/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="//www.juhemei.net/tags/Hexo/"/>
+    
+      <category term="Git" scheme="//www.juhemei.net/tags/Git/"/>
+    
+      <category term="Github" scheme="//www.juhemei.net/tags/Github/"/>
+    
+      <category term="Node.js" scheme="//www.juhemei.net/tags/Node-js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="//www.juhemei.net/2017/04/22/Hello-world/"/>
+    <id>//www.juhemei.net/2017/04/22/Hello-world/</id>
+    <published>2017-04-22T08:31:43.006Z</published>
+    <updated>2017-04-24T01:40:09.338Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+      <category term="博客" scheme="//www.juhemei.net/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="//www.juhemei.net/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>
