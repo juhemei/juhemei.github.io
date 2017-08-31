@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="//www.juhemei.net/"/>
-  <updated>2017-05-28T08:59:14.173Z</updated>
+  <updated>2017-08-31T13:05:15.264Z</updated>
   <id>//www.juhemei.net/</id>
   
   <author>
@@ -14,6 +14,114 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>推荐几款精美耐看的xshell配色方案</title>
+    <link href="//www.juhemei.net/2017/08/31/Xshell-coloringscheme/"/>
+    <id>//www.juhemei.net/2017/08/31/Xshell-coloringscheme/</id>
+    <published>2017-08-31T12:43:00.000Z</published>
+    <updated>2017-08-31T13:05:15.264Z</updated>
+    
+    <content type="html"><![CDATA[<p>一、推荐几款精美耐看的xshell配色方案（转载-<a href="http://www.jianshu.com/p/741affd7b3c5" target="_blank" rel="external">原文链接地址</a>）</p>
+<p>对于终端模拟器之前使用较多的算是securecrt，用来配置思科路由器和交换机。Xshell是后来接触linux服务器后，同事（大神级别人物）介绍使用这个软件-（自动补全、免费、功能强大）<br><a id="more"></a></p>
+<p><strong>下面我来给大家介绍几款个人比较喜欢的xshell配色方案</strong></p>
+<p>使用方法：</p>
+<p>新建文本文档，然后拷贝代码到文档里，保存为.xcs格式，最后将.xcs导入xshell配色方案即可。</p>
+<p><img src="http://oowirpzt9.bkt.clouddn.com/xshellcolor-1.png" alt=""></p>
+<p><img src="http://oowirpzt9.bkt.clouddn.com/xshellcolor-2.png" alt=""></p>
+<p><img src="http://oowirpzt9.bkt.clouddn.com/xshellcolor-3.png" alt=""></p>
+<p>(1)ubuntu.xcs</p>
+<p>这款配色方案是仿ubuntu的标准配色，精美，但是貌似看久了眼睛会有点辣眼睛哈！</p>
+<p><img src="http://oowirpzt9.bkt.clouddn.com/xshellcolor-4.png" alt=""></p>
+<pre><code>[ubuntu]
+text(bold)=ffffff
+magenta(bold)=ad7fa8
+text=ffffff
+white(bold)=eeeeec
+green=4e9a06
+red(bold)=ef2929
+green(bold)=8ae234
+black(bold)=555753
+red=cc0000
+blue=3465a4
+black=000000
+blue(bold)=729fcf
+yellow(bold)=fce94f
+cyan(bold)=34e2e2
+yellow=c4a000
+magenta=75507b
+background=300a24
+white=d3d7cf
+cyan=06989a
+[Names]
+count=1
+name0=ubuntu
+</code></pre><p>(2)Solarized Dark.xcs</p>
+<p>这款配色方案是我最喜欢的配色，护眼耐看，配合vim的Solarized Dark配色简直就是完美！</p>
+<p><img src="http://oowirpzt9.bkt.clouddn.com/xshellcolor-5.png" alt=""></p>
+<pre><code>[Solarized Dark]
+text=00ff40
+cyan(bold)=93a1a1
+text(bold)=839496
+magenta=dd3682
+green=859900
+green(bold)=586e75
+background=042028
+cyan=2aa198
+red(bold)=cb4b16
+yellow=b58900
+magenta(bold)=6c71c4
+yellow(bold)=657b83
+red=dc322f
+white=eee8d5
+blue(bold)=839496
+white(bold)=fdf6e3
+black=002b36
+blue=268bd2
+black(bold)=073642
+[Names]
+name0=Solarized Dark
+count=1
+</code></pre><p>(3)isayme.xcs</p>
+<p>这款也是一款护眼主题，舒适耐看，值得长期使用</p>
+<p><img src="http://oowirpzt9.bkt.clouddn.com/xshellcolor-6.png" alt=""></p>
+<pre><code>[isayme]
+text(bold)=eaeaea
+magenta(bold)=ff00ff
+text=ffffff
+white(bold)=eaeaea
+green=00c000
+red(bold)=d20000
+green(bold)=00ff00
+black(bold)=808080
+red=c00000
+blue=113fcc
+black=000000
+blue(bold)=0080ff
+yellow(bold)=ffff00
+cyan(bold)=00ffff
+yellow=c0c000
+magenta=c000c0
+background=222222
+white=c0c0c0
+cyan=00c0c0
+[Names]
+count=1
+name0=isayme
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      Xshell
+    
+    </summary>
+    
+      <category term="Linux" scheme="//www.juhemei.net/categories/Linux/"/>
+    
+    
+      <category term="Linux，Xshell" scheme="//www.juhemei.net/tags/Linux%EF%BC%8CXshell/"/>
+    
+  </entry>
   
   <entry>
     <title>网络工程师的职业发展路线</title>
