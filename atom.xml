@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="//www.juhemei.net/"/>
-  <updated>2017-08-31T14:28:53.657Z</updated>
+  <updated>2017-09-11T10:35:26.259Z</updated>
   <id>//www.juhemei.net/</id>
   
   <author>
@@ -16,22 +16,103 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>“给青春90秒”-心理情绪的思考</title>
+    <link href="//www.juhemei.net/2017/09/09/Youth-90/"/>
+    <id>//www.juhemei.net/2017/09/09/Youth-90/</id>
+    <published>2017-09-09T12:08:44.000Z</published>
+    <updated>2017-09-11T10:35:26.259Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://oowirpzt9.bkt.clouddn.com/young90.jpg" alt=""></p>
+<blockquote>
+<p>《青春-席慕蓉》</p>
+<p>所有的结局都已写好</p>
+<p>所有的泪水也都已启程</p>
+<p>却忽然忘了是怎么样的一个开始</p>
+<p>在那个古老的不再回来的夏日</p>
+<a id="more"></a>
+<p>无论我如何地去追索</p>
+<p>年轻的你只如云影掠过</p>
+<p>而你微笑的面容极浅极淡</p>
+<p>逐渐隐没在日落后的群岚</p>
+<p>遂翻开那发黄的扉页</p>
+<p>命运将它装订的极为拙劣</p>
+<p>含着泪 我一读再读</p>
+<p>却不得不承认</p>
+<p>青春 是一本太仓促的书</p>
+</blockquote>
+<hr>
+<p>“给青春90秒”这是中央一套-今日说法栏目最近做的一系列这个主题的节目。讲的都是在青春期做过的一些不理智的事，并请一些心理学专家对这些事件进行分析，给出一些建议（很喜欢看这个节目，从高中的时候就开始看了-陪伴了我好多年）</p>
+<p>最近情绪也是不稳定，感觉自己有社交恐惧症，过于孤僻。融不进集体，有些烦~</p>
+<p><strong>先总结下节目中心理专家给的情绪控制法（90秒方法）：</strong></p>
+<ul>
+<li>书写情绪控制法<ul>
+<li>写下自己的想法</li>
+<li>从文字中了解自己的处境</li>
+<li>识别当下的风险</li>
+<li>避免错误的选择</li>
+</ul>
+</li>
+<li>注意力转移法<ul>
+<li>转移视线</li>
+<li>环顾周围的环境</li>
+<li>转移思维</li>
+<li>把消极的思维转移到积极的思维上</li>
+</ul>
+</li>
+<li>情绪处理三部曲<ul>
+<li>停下（描述我此刻的心情如何）</li>
+<li>觉察（如果采取极端方法，后果是什么？）</li>
+<li>问自己（还有其他更好的解决办法吗？）</li>
+</ul>
+</li>
+<li>深呼吸<ul>
+<li>用鼻子吸气，吸满整个腹部，然后停住几秒再慢慢把气吐出来</li>
+</ul>
+</li>
+</ul>
+<hr>
+<blockquote>
+<p>愿你沉定又执着</p>
+<p>对每件热爱的事物</p>
+<p>都全力以赴</p>
+<p>又满载而归</p>
+<p>变成一个美好的人</p>
+<p>做美好的事</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      psychological
+    
+    </summary>
+    
+      <category term="Life" scheme="//www.juhemei.net/categories/Life/"/>
+    
+    
+      <category term="Life，psychological" scheme="//www.juhemei.net/tags/Life%EF%BC%8Cpsychological/"/>
+    
+      <category term="youth" scheme="//www.juhemei.net/tags/youth/"/>
+    
+  </entry>
+  
+  <entry>
     <title>参考手册</title>
     <link href="//www.juhemei.net/2017/08/31/Reference-manual/"/>
     <id>//www.juhemei.net/2017/08/31/Reference-manual/</id>
     <published>2017-08-31T14:20:44.000Z</published>
-    <updated>2017-08-31T14:28:53.657Z</updated>
+    <updated>2017-09-08T07:30:05.297Z</updated>
     
     <content type="html"><![CDATA[<p>一、参考手册（转载-<a href="http://www.haiyun.me/doc.html" target="_blank" rel="external">原文链接地址</a>）</p>
 <p><img src="http://oowirpzt9.bkt.clouddn.com/windowsvslinux.png" alt=""></p>
 <p><strong>常用国外linux资源</strong></p>
-<p>www.lwn.net：来自Linux和开放源代码界的新闻</p>
-<p>www.freecode.com:最齐全的Linux/UNIX软件库</p>
-<p>www.justlinux.com：信息齐全的Linux学习网站</p>
-<p>www.kernel.org：Linux内核的官方网站</p>
-<p>www.linux.com：提供全方位的Linux信息，不是官方网站</p>
-<p>www.linuxhq.com：提供内核信息和补丁的汇总</p>
-<p>www.linuxtoday.com：非常完整的Linux新闻站点</p>
+<p>Linux和开放源代码界的新闻: <a href="http://www.lwn.net" target="_blank" rel="external">http://www.lwn.net</a></p>
+<p>最齐全的Linux/UNIX软件库: <a href="http://www.freecode.com" target="_blank" rel="external">http://www.freecode.com</a></p>
+<p>信息齐全的Linux学习网站: <a href="http://www.justlinux.com" target="_blank" rel="external">http://www.justlinux.com</a></p>
+<p>Linux内核的官方网站: <a href="http://www.kernel.org" target="_blank" rel="external">http://www.kernel.org</a></p>
+<p>全方位的Linux信息，不是官方网站: <a href="http://www.linux.com" target="_blank" rel="external">http://www.linux.com</a></p>
+<p>提供内核信息和补丁的汇总: <a href="http://www.linuxhq.com" target="_blank" rel="external">http://www.linuxhq.com</a></p>
+<p>非常完整的Linux新闻站点: <a href="http://www.linuxtoday.com" target="_blank" rel="external">http://www.linuxtoday.com</a></p>
 <a id="more"></a>
 <p>收集整理下一些软件或系统的官方手册，以备查阅。</p>
 <h2 id="操作系统："><a href="#操作系统：" class="headerlink" title="操作系统："></a>操作系统：</h2><p>Debian：<a href="http://www.debian.org/doc/" target="_blank" rel="external">http://www.debian.org/doc/</a></p>
@@ -472,7 +553,7 @@ name0=isayme
     <link href="//www.juhemei.net/2017/04/24/Previous-word/"/>
     <id>//www.juhemei.net/2017/04/24/Previous-word/</id>
     <published>2017-04-24T01:36:27.000Z</published>
-    <updated>2017-04-24T08:29:56.500Z</updated>
+    <updated>2017-09-11T10:42:04.734Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://oowirpzt9.bkt.clouddn.com/timg.jpg" alt=""></p>
 <h2 id="你好-Github-Hexo-node-js-git"><a href="#你好-Github-Hexo-node-js-git" class="headerlink" title="你好 Github+Hexo+node.js+git"></a>你好 Github+Hexo+node.js+git</h2><p>去年就通过论坛了解到可以通过github可以创建自己的博客，但是之前遇到一些麻烦。</p>
@@ -495,7 +576,7 @@ name0=isayme
 <li>网站图标：<a href="http://www.easyicon.net/" target="_blank" rel="external">http://www.easyicon.net/</a></li>
 <li>编辑工具：<a href="http://www.jianshu.com/p/82e730892d42#" target="_blank" rel="external">Markdown的常用语法(个人总结)</a></li>
 <li>主题:<a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external">一个简洁优雅的hexo主题-yilia</a></li>
-<li>评论：<a href="https://gentie.163.com/index.html" target="_blank" rel="external">网易云跟帖</a></li>
+<li>评论（网易云跟帖已关闭）：<a href="https://gentie.163.com/index.html" target="_blank" rel="external">网易云跟帖</a></li>
 <li>图床：<a href="https://www.qiniu.com/" target="_blank" rel="external">七牛云（认证用户有10G空间免费使用）</a></li>
 <li>Sitemap:<a href="https://www.xml-sitemaps.com" target="_blank" rel="external">可方便网站管理员通知搜索引擎他们网站上有哪些可供抓取的网页</a></li>
 </ul>
